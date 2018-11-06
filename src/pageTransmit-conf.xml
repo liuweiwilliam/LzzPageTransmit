@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageTransmit>
+	<transmitIndex>http://118.178.180.169:8080/4S-VOLVO/page-login/login.html</transmitIndex>
+	<transmitRoot>http://118.178.180.169:8080/4S-VOLVO/</transmitRoot>
+	<localProjectRoot>http://localhost:8080/LZZPageTransmit/</localProjectRoot>
+	<localProjectName>/LZZPageTransmit/</localProjectName>
+	<projectRootDictionary>/4S-VOLVO/</projectRootDictionary>
+	<requestFilterUrl>
+		
+	</requestFilterUrl>
+	
+	<responseFilterUrl>
+		<url>
+			<localUrl>/LZZPageTransmit/js/jquery-1.8.3.min.js</localUrl>
+			<remoteUrl>../js/jquery-1.8.3.min.js</remoteUrl>
+		</url>
+		<url>
+			<localUrl>/LZZPageTransmit/js/pcapi.js</localUrl>
+			<remoteUrl>../js/pcapi.js</remoteUrl>
+		</url>
+	</responseFilterUrl>
+	
+	<pageItemIgnores>
+		<js>js/jquery-1.8.3.min.js</js>
+	</pageItemIgnores>
+	<!-- 配置此节点，表示这些后缀名的资源不进行过滤 -->
+	<baseResource>
+		<postFix>.jpg</postFix>
+		<postFix>.JPG</postFix>
+		<postFix>.png</postFix>
+		<postFix>.PNG</postFix>
+		<postFix>.bmp</postFix>
+		<postFix>.gif</postFix>
+		<postFix>.ico</postFix>
+		<postFix>.jpeg</postFix>
+		<postFix>.JPEG</postFix>
+		<postFix>.woff2</postFix>
+	</baseResource>
+</pageTransmit>
